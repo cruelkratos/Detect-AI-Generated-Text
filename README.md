@@ -1,6 +1,8 @@
 Using NLP Pipeline and Models like Naive Bayes with Stochastic Gradient Descent I was able to get 91.1% accuracy in predicting if the text was AI generated or human written
+
+
 ![image](https://github.com/cruelkratos/Detect-AI-Generated-Text/assets/116339436/7dfcdda5-97a6-46b1-9477-962149ee44e9)
-I got an overall accuracy of 91.1%
+
 
 <h1>Approach</h1>
 <h2>Dataset</h2>
@@ -11,7 +13,10 @@ I used the BytePair Encoding strategy which involves merging words with close fr
 
 <h2>TF-IDF Vectorization</h2>
 Now we convert the tokens to vectors so now we can effectively calculate the distances between them for this I use the technique of TF-IDF Vectorization.
+
+
 $$\text{TF(t,d)} =  \frac{\text{Number of times term t appears in document d}}{\text{Total number of terms in document d}}$$
+
 
 $$\text{IDF(t,d)} =  \log{(1 + \frac{\text{Total number of documents in the collection D}}{\text{Number of documents containing term t}})}$$
 
