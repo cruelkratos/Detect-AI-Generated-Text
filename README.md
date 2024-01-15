@@ -29,5 +29,10 @@ In the process of model experimentation, I discovered that Naive Bayes consisten
 Naive Bayes’ is a classification algorithm(often dubbed as Idiot’s Bayes’) which is based on the Bayes’ Theorem. The algorithm makes the bold assumption that the probability of all posteriors are independent given the class priors. This obviously is a false assumption but it tends to work good enough and speeds up the pipeline (source: Andrew Ng Course CSN229).
 <h3>Gradient Descent</h3>
 As the name suggest we use the $\nabla$ operator here to find the direction with the maximum slope and move in the negative direction along it , until we reach the local optima. We Try to minimize the MSE(Mean Squared Error) function .
+
+
+[Here's a blog which i wrote about the same](https://medium.com/@cruelkratos/classification-algorithms-gaussian-linear-discriminant-analysis-lda-and-naive-bayes-38c016bd836b)
+
+
 <h1>Learnings</h1>
 in this project, I dived into the world of natural language processing (NLP) and machine learning. I learned how to process text through the NLP pipeline, breaking it down into smaller parts using tokenization. Decision trees became my go-to for understanding patterns in data, while text preprocessing taught me how to clean and prepare messy text for analysis. Vectorization, turning words into numbers, became a key step for machine learning. I got hands-on with various classification algorithms like Support Vector Machines, Naive Bayes, Gradient Descent, and Logistic Regression. Each algorithm had its strengths, and applying them in real-world scenarios showed me the practical side of these concepts. Overall, this project was a hands-on journey into the practical world of NLP and machine learning.
